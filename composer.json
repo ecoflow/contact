@@ -1,0 +1,26 @@
+{
+  "name": "ecoflow/contact",
+  "version": "0.0.1",
+  "description": "Manage Phones, Emails and Addresses",
+  "type": "package",
+  "authors": [
+    {
+      "name": "jrb",
+      "email": "jrb.youssef@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Ecoflow\\Contact\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ecoflow\\Contact\\ContactServiceProvider"
+      ]
+    }
+  }
+}

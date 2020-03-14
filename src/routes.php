@@ -1,0 +1,3 @@
+<?php
+
+// Ecoflow\Contact Routes
