@@ -7,9 +7,8 @@ use Ecoflow\Core\Repositories\BaseRepository;
 
 class PhoneRepository extends BaseRepository
 {
-
     public function __construct()
     {
-        $repo = new BaseRepository(new Phone());
+        parent::__construct(new Phone());
     }
 }
