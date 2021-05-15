@@ -1,14 +1,11 @@
 <?php
 
-namespace Ecoflow\Contact\Database\seeds;
+// namespace Ecoflow\Contact\Database\Seeds;
 
-use Faker\Generator;
 use Faker\Factory as Faker;
-use Illuminate\Support\Str;
 use Ecoflow\Access\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Hash;
 
 class AddressesTableSeeder extends Seeder
 {
